@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Primer Avance de Proyecto</title>
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="css/General-Stiles.css">
     <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <div class="container">
-        <h1 class="main-title">PRIMER AVANCE DE PROYECTO</h1>
-        <h3 class="sub-title">METODOLOGÍAS PARA EL DESARROLLO DE PROYECTOS</h3>
-        <a href="Pages/Main.html" class="btn main-cta">Continuar</a>
-    </div>
 
+    <!-- Fuente profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HERO PRINCIPAL -->
+    <section class="hero">
+
+        <!-- Canvas para red interactiva -->
+        <canvas id="networkCanvas"></canvas>
+
+        <!-- Contenido principal -->
+        <div class="hero-content">
+            <h1 class="main-title">
+                SEGUNDO AVANCE DE PROYECTO
+            </h1>
+
+            <p class="sub-title">
+                Metodologías para el desarrollo de proyectos
+            </p>
+
+            <a href="Pages/Main.html" class="btn main-cta">
+                Continuar
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-        <h4>Proyecto integrado por:</h4>
-        <p>Marquéz Medina Alexis Israel<br>
-        Martínez Perafan Ían Isaí</p>
+        <div class="footer-content">
+            <h4>Proyecto integrado por:</h4>
+            <p>
+                Marquéz Medina Alexis Israel<br>
+                Martínez Perafan Ían Isaí
+            </p>
+        </div>
     </footer>
-    
+
+    <!-- Script de la red -->
+    <script src="js/network.js"></script>
+
 </body>
 </html>
