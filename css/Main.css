@@ -241,3 +241,55 @@ body {
     margin-left: 0;
   }
 }
+/* ===============================
+   MODO CLARO
+=================================*/
+
+body.light-mode {
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+body.light-mode .header {
+  background: rgba(255,255,255,0.9);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+body.light-mode .nav-link {
+  color: #334155;
+}
+
+body.light-mode .nav-link:hover {
+  color: #2563eb;
+}
+
+body.light-mode .toc {
+  background: #ffffff;
+  border-right: 1px solid #e2e8f0;
+}
+
+body.light-mode .toc-link {
+  color: #334155;
+}
+
+body.light-mode .toc-link.active {
+  background: #2563eb;
+  color: white;
+}
+
+body.light-mode .main-content {
+  color: #1e293b;
+}
+
+body.light-mode .content-section h2 {
+  color: #1e293b;
+}
+
+body.light-mode .content-section p {
+  color: #334155;
+}
+
+body.light-mode .footer {
+  background: #f1f5f9;
+  color: #334155;
+}
